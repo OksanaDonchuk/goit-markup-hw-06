@@ -127,7 +127,6 @@
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 72px;
-    max-width: 584px;
   }
 
   .page-footer .logotype {
@@ -160,6 +159,12 @@
 
   .footer-form-input {
     width: 264px;
+  }
+}
+
+@media sreen and (min-width: 768px) and (max-width: 1157px) {
+  .page-footer .container {
+    max-width: 584px;
   }
 }
 

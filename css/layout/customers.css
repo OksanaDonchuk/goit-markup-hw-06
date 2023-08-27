@@ -36,16 +36,18 @@
 }
 
 @media screen and (min-width: 768px) {
-  .customers .container {
-    max-width: 584px;
-  }
-
   .customers-list {
     column-gap: 24px;
   }
 
   .customers-list-item {
     width: calc((100% - 48px) / 3);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+  .customers .container {
+    max-width: 584px;
   }
 }
 
