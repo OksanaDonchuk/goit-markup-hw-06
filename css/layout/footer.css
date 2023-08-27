@@ -79,6 +79,12 @@
   background-color: transparent;
 }
 
+@media screen and (max-width: 427px) {
+  .footer-form-input {
+    width: 284px;
+  }
+}
+
 .footer-form-input::placeholder {
   color: var(--text-btn-color);
   font-size: 12px;
@@ -119,9 +125,9 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 108px;
     column-gap: 24px;
     row-gap: 72px;
+    max-width: 584px;
   }
 
   .page-footer .logotype {
@@ -166,6 +172,7 @@
     flex-wrap: nowrap;
     padding-left: 0;
     align-items: baseline;
+    gap: 0;
   }
   .footer-logo-and-text {
     margin-right: 120px;

@@ -13,6 +13,12 @@
   transition: transform var(--transition-dur-func);
 }
 
+@media screen and (max-width: 427px) {
+  .modal {
+    width: 284px;
+  }
+}
+
 .close-button {
   position: absolute;
   top: 24px;
