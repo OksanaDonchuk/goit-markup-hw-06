@@ -1,0 +1,19 @@
+.our-solution {
+  display: none;
+}
+
+@media screen and (min-width: 1158px) {
+  .our-solution {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .solution-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .solution-list-item {
+    flex-basis: calc((100% - 2 * 24px) / 3);
+  }
+}
